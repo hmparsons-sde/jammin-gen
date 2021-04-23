@@ -1,5 +1,5 @@
-# React Template
+# Lyrics Search [![Netlify Status](https://api.netlify.com/api/v1/badges/4ea181f1-a929-47ee-9455-f80fafbb6816/deploy-status)](https://app.netlify.com/sites/hp-react-lyrics/deploys)
 
-Use this template to get up and running quickly on projects. 
-- For setting up this template, [follow these instructions](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md).
-- [Steps to deploy](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
+Lyrics search app built with ReactJS and lyrics.ovh API. This is a rebuild of a project built with Vanilla JS.
+
+https://hp-react-lyrics.netlify.app
