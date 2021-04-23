@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+background-color: #eebdb5;
+margin-top: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+Form {
+  background-color: #eebdb5;
+  border-style: solid;
+  border-color: #b36b5e;
+  border-width: 2px;
+  border-radius: 20px;
+  width: 40rem;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#formGroup {
+  margin: 40px;
+  width: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+// Label {
+//   margin-top: 25px;
+// }
+
+Button {
+  background-color: #e0dec4;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #b36b5e;         
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b36b5e;
+  margin-bottom: 10%;
+  margin-left: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+Button:hover {
+  background-color: #b36b5e;
+  color: #e0dec4;
+  transition: 0.5s;
+  border-color: #e0dec4;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#artistInfo {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 30px;
 }
